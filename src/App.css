@@ -1,22 +1,97 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* #AB2A19
+#D34735
+#ED6B5A
+#3AD886 */
+.Header{
+    height: 80px;
+    background: #AB2A19 ;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: white;
+    position: fixed;
+    width: 100vw;
 }
+.logo{
+    margin-right: 15px;
+    height: 3rem;
+}
+.display{
+    display: flex;
+    padding-top: 130px;
+}
+.Dashboard{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    
+}
+.Form{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 
-.App-link {
-  color: #09d3ac;
+
+
+}
+.formBox{
+    height: 60vh;
+    width: 45vw;
+    background: #3AD886;
+    position: fixed;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+}
+.formImgPreview{
+    height: 150px;
+    /* width: 250px; */
+    margin-top: 10px;
+    background-image: url();
+    background-image: url('https://store.bicycleczar.com/v/vspfiles/photos/02180054-2.jpg');background-size: cover;
+    background-position: center;
+}
+.formButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+button{
+    border: none;
+    height: 30px;
+    background: #ED6B5A;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+.Product{
+    height: 300px;
+    width: 45vw;
+    background:#D34735;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+
+}
+.productImg{
+    height: 150px;
+    /* width: 250px; */
+    margin-top: 10px;
+    background-image: url('https://store.bicycleczar.com/v/vspfiles/photos/02180054-2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.productText{
+    display: flex;
+    justify-content: space-between;
+
 }
